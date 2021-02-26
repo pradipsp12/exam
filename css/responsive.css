@@ -32,7 +32,8 @@
 }
 @media screen and (min-width:360px) and (max-width:766px) {
     .social ul{
-    margin-left: 10px;  
+    margin-left: 10px;
+    
 }
     .social ul li{
         margin: 15px 10px;
@@ -40,15 +41,23 @@
         height: 42px;
     }
     .line-text::after {
-    left:85%;
+    display: none;
 }
     .line-text::before{
-    right:85%;
+    display: none;
 }
     .txt-center{
-        text-align:center;
+        text-align:center!important;
     }
     .site-name {
     display: none;
+}
+    .email-ad {
+   margin: auto;
+        display: block;
+}
+    .contact-no {
+   margin: auto;
+        display: block;
 }
 }
