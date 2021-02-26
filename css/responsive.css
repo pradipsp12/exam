@@ -1,0 +1,47 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+         .social ul {
+    margin-left: 400px;
+             
+}
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+         .social ul {
+    margin-left: 300px;
+    }
+     .line-text::after {
+    left:70%;
+}
+    .line-text::before{
+    right:70%;
+}
+
+}
+@media screen and (min-width:767px) and (max-width:991px) {
+     .social ul {
+    margin-left: 200px;
+  }
+     .line-text::after {
+    left:80%;
+}
+    .line-text::before{
+    right:80%;
+}
+    .txt-center{
+        text-align: center;
+    }
+}
+@media screen and (min-width:380px) and (max-width:766px) {
+    .social ul{
+    margin-left: 0px;
+    
+}
+    .line-text::after {
+    left:85%;
+}
+    .line-text::before{
+    right:85%;
+}
+    .txt-center{
+        text-align:center;
+    }
+}
